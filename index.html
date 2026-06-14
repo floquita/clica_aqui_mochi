@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beijinho Surpresa</title>
 
+<style>
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFDCE8;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.kiss {
+    font-size: 90px;
+    animation: pulse 1.8s infinite;
+}
+
+.text {
+    margin-top: 15px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.15);}
+    100% {transform: scale(1);}
+}
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="kiss">💋</div>
+        <div class="text">BEIJINHO SURPRESA MOCHI</div>
+    </div>
+</body>
+</html>
